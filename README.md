@@ -6,9 +6,7 @@ A practical implementation of 3D object quality control using RGB-D sensor data 
 ### - [What for?](#what-for)  
 ### - [How it works](#how-it-works-in-simple-terms)  
 ### - [Project files](#project-files-explained)  
-### - [Technologies used](#technologies-used)  
 ### - [Real-World applications](#real-world-applications)  
-### - [Understanding the output](#understanding-the-output)  
 ### - [Key concepts](#key-concepts)
 
 ## What for?
@@ -51,12 +49,8 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
 | `data02_object.xyz` | Test object #1 to check |
 | `data03_object.xyz` | Test object #2 to check |
 
-## Technologies Used
+## Specific technologies used
 
-- **Python** - Programming language
-- **NumPy** - For mathematical operations on 3D coordinates
-- **scikit-learn** - For finding nearest neighbors between points
-- **Matplotlib** - For visualizing the 3D point clouds
 - **CloudCompare** - Professional 3D point cloud viewing software
 
 ## Real-World Applications
