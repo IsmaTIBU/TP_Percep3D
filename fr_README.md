@@ -3,8 +3,8 @@
 Une implémentation pratique du contrôle qualité d'objets 3D utilisant des données de capteurs RGB-D et des techniques de traitement de nuages de points.
 
 # Index
-### - [À Quoi Ça Sert ?](#à-quoi-ça-sert)  
-### - [Comment Ça Marche ?](#comment-ça-marche-en-termes-simples)  
+### - [À Quoi Ça Sert ?](#à-quoi-ça-sert-)  
+### - [Comment Ça Marche ?](#comment-ça-marche--en-termes-simples)  
 ### - [Fichiers du Projet](#fichiers-du-projet-expliqués)  
 ### - [Applications dans le Monde Réel](#applications-dans-le-monde-réel)  
 ### - [Concepts Clés](#concepts-clés)
