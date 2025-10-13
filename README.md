@@ -2,11 +2,20 @@
 
 A practical implementation of 3D object quality control using RGB-D sensor data and point cloud processing techniques.
 
-## 🎯 What Does This Project Do?
+# Index
+### - [What for?](#what-does-this-project-do)  
+### - [How i tworks](#how-it-works-in-simple-terms)  
+### - [Project files](#project-files-explained)  
+### - [Technologies used](#technologies-used)  
+### - [Real-World applications](#real-world-applications)  
+### - [Understanding the output](#understanding-the-output)  
+### - [Key concepts](#key-concepts)
+
+## What Does This Project Do?
 
 Imagine you're manufacturing parts in a factory and need to check if each piece matches a perfect reference model. This system does exactly that - but in 3D! It uses depth cameras (like Microsoft Kinect) to capture 3D scans of objects and automatically detects defects like holes, bumps, or missing pieces.
 
-## 🔍 How It Works (In Simple Terms)
+## How It Works (In Simple Terms)
 
 ### 1. **Capturing 3D Data**
 - An **RGB-D sensor** (a special camera that sees both color and depth) scans an object
@@ -30,7 +39,7 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
   - **Missing points** = holes or missing pieces
   - **Displaced points** = deformations or incorrect dimensions
 
-## 📁 Project Files Explained
+## Project Files Explained
 
 | File | What It Does |
 |------|--------------|
@@ -42,7 +51,7 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
 | `data02_object.xyz` | Test object #1 to check |
 | `data03_object.xyz` | Test object #2 to check |
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python** - Programming language
 - **NumPy** - For mathematical operations on 3D coordinates
@@ -50,16 +59,7 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
 - **Matplotlib** - For visualizing the 3D point clouds
 - **CloudCompare** - Professional 3D point cloud viewing software
 
-## 🚀 What You Can Do With This
-
-1. **Load and visualize 3D scans** of objects
-2. **Remove background clutter** from scenes
-3. **Automatically align objects** regardless of how they're positioned
-4. **Compare objects** to detect manufacturing defects
-5. **Measure object dimensions** from 3D data
-6. **Export results** for documentation or further analysis
-
-## 💡 Real-World Applications
+## Real-World Applications
 
 - **Manufacturing quality control** - Check if parts match specifications
 - **3D printing verification** - Ensure printed objects match the design
@@ -67,7 +67,7 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
 - **Medical imaging** - Detect anomalies in 3D scans
 - **Robotics** - Help robots recognize and manipulate objects
 
-## 📊 Understanding the Output
+## Understanding the Output
 
 The system produces:
 - **Visualizations** showing the reference (red) and test object (blue) overlaid
@@ -75,7 +75,7 @@ The system produces:
 - **Numerical measurements** of the differences between objects
 - **Exported files** with the aligned point clouds for detailed inspection
 
-## 🎓 Key Concepts
+## Key Concepts
 
 ### Point Cloud
 A collection of points in 3D space that represents the surface of an object. Like a 3D connect-the-dots drawing with thousands of dots.
