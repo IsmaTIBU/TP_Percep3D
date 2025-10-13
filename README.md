@@ -1,3 +1,9 @@
+<div align="left">
+  <a href="fr_README.md">
+    <img src="https://img.shields.io/badge/lang-fr-blue">
+  </a>
+</div>
+
 # 3D Vision Quality Control System
 
 A practical implementation of 3D object quality control using RGB-D sensor data and point cloud processing techniques.
