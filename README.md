@@ -3,13 +3,13 @@
 A practical implementation of 3D object quality control using RGB-D sensor data and point cloud processing techniques.
 
 # Index
-### - [What for?](#what-for)  
-### - [How it works](#how-it-works-in-simple-terms)  
-### - [Project files](#project-files-explained)  
-### - [Real-World applications](#real-world-applications)  
-### - [Key concepts](#key-concepts)
+### - [What For?](#what-for)  
+### - [How It Works](#how-it-works-in-simple-terms)  
+### - [Project Files](#project-files-explained)  
+### - [Real-World Applications](#real-world-applications)  
+### - [Key Concepts](#key-concepts)
 
-## What for?
+## What For?
 
 Imagine you're manufacturing parts in a factory and need to check if each piece matches a perfect reference model. This system does exactly that - but in 3D! It uses depth cameras (like Microsoft Kinect) to capture 3D scans of objects and automatically detects defects like holes, bumps, or missing pieces.
 
