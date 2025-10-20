@@ -8,6 +8,9 @@
 
 A practical implementation of 3D object quality control using RGB-D sensor data and point cloud processing techniques.
 
+Subject in french: [Subject](https://clairelabitbonis.github.io/posts/teaching/3d_perception/practical_sessions_3d_perception/cc_segmentation/)
+Subject in english: [Subject](README/Subject.pdf)
+
 # Index
 ### - [What For?](#what-for)  
 ### - [How It Works](#how-it-works-in-simple-terms)  
@@ -26,15 +29,29 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
 - This creates a **point cloud** - imagine thousands of tiny dots in 3D space that together form the shape of the object
 - Each point has X, Y, Z coordinates telling us exactly where it sits in space
 
+| |Studied object|Reference Object|Wrong object|
+|:-:|:-:|:-:|:-:|
+|Point Cloud|![Studied_object](README/Studied_object.png)|![Reference_object](README/Correct_object.png)|![Wrong_object](README/Wrong_object.png)|
+
 ### 2. **Building a Reference Model**
 - First, we scan a perfect, flawless object to use as our "golden standard"
 - We remove the background (table, walls, etc.) to isolate just the object
 - This becomes our reference model that all future objects will be compared against
 
+|Raw point cloud|Depth-colored point cloud|Segmented point cloud|
+|-|-|-|
+|![Raw_pc](README/Point_cloud.png)|![Depth_pc](README/Point_cloud_Z.png)|![Segm_pc](README/Brick.png)|
+
 ### 3. **Aligning Test Objects (ICP Algorithm)**
 - When we scan a new object to check, it might be rotated or positioned differently
 - The **ICP (Iterative Closest Point)** algorithm is like a smart puzzle solver - it figures out how to rotate and move the test object so it perfectly aligns with the reference
 - Think of it like overlaying two transparent sheets until they match as closely as possible
+
+| |Comparison with Reference Object|Comparison with Wrong object|
+|:-:|:-:|:-:|
+|Residual distance graph|![Res_dist_corr](README/Fig1_corr.png)|![Res_dist_wr](README/Fig1_wr.png)|
+|ICP program results|![Result_corr](README/Fig2_corr.png)|![Result_wr](README/Fig2_wr.png)|
+
 
 ### 4. **Detecting Defects**
 - Once aligned, we compare the two point clouds
@@ -42,6 +59,10 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
   - **Extra points** = unwanted material or residues
   - **Missing points** = holes or missing pieces
   - **Displaced points** = deformations or incorrect dimensions
+
+| |Comparison with Reference Object|Comparison with Wrong object|
+|:-:|:-:|:-:|
+|Dynamic comparison|![Corr_gif](README/Corr_comp.gif)|![Wr_gif](README/Wr_comp.gif)|
 
 ## Project Files Explained
 
