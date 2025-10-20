@@ -8,7 +8,7 @@
 
 A practical implementation of 3D object quality control using RGB-D sensor data and point cloud processing techniques.
 
-Subject in french: [Subject](https://clairelabitbonis.github.io/posts/teaching/3d_perception/practical_sessions_3d_perception/cc_segmentation/)
+Subject in french: [Subject](https://clairelabitbonis.github.io/posts/teaching/3d_perception/practical_sessions_3d_perception/cc_segmentation/)  
 Subject in english: [Subject](README/Subject.pdf)
 
 # Index
