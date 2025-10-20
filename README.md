@@ -50,7 +50,8 @@ Imagine you're manufacturing parts in a factory and need to check if each piece 
 | |Comparison with Reference Object|Comparison with Wrong object|
 |:-:|:-:|:-:|
 |Residual distance graph|![Res_dist_corr](README/Fig1_corr.png)|![Res_dist_wr](README/Fig1_wr.png)|
-|ICP program results|![Result_corr](README/Fig2_corr.png)|![Result_wr](README/Fig2_wr.png)|
+|Illustrative ICP results|![Result_corr](README/Fig2_corr.png)|![Result_wr](README/Fig2_wr.png)|
+|Quantitative ICP results|![Q_corr](README/Corr_results.png)|![W_corr](README/Wrong_results.png)|
 
 
 ### 4. **Detecting Defects**
